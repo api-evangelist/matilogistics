@@ -1,4 +1,4 @@
-# mati-logistics-track-and-trace-api
+# Mati Logistics
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-REST API for ocean container/BOL/booking shipment visibility (track and trace) across 20+ carriers and NVOCCs, with normalized milestone events, carrier detection, reference data, and signed webhooks. Access is gated behind a paid subscription tier.
+Mati Logistics runs a network for global trade connecting buyers, suppliers, distributors, forwarders and NVOCCs, with two products: an AI sourcing agent over customs-derived trade data covering 66,459 manufacturers and exporters, and Track and Trace. Track and Trace is the API product: a REST/JSON API for ocean container, bill-of-lading and booking shipment visibility across 24 ocean carriers and NVOCCs, returning normalized milestone events, carrier-stated routes, transshipment dwell and last-free-day data by polling or by HMAC-signed webhook. Bearer-token auth, cursor pagination, ISO 6346 and SCAC identifiers. API access is gated behind a paid subscription tier.
+
+**Areas:** Logistics · Supply Chain · Shipping · Container Tracking · Ocean Freight · Track and Trace · Shipment Visibility · Freight Forwarding · NVOCC · Webhook · REST · Procurement
+
+## Mati Logistics on APIs.io
+
+Everything profiled for Mati Logistics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/matilogistics/](https://apis.io/providers/matilogistics/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Mati Logistics Track and Trace API](https://apis.io/apis/matilogistics/mati-logistics-track-and-trace-api/) — REST/JSON API versioned under /v2 at https://api.matilogistics.com for tracking requests, shipments, containers, carrier and terminal reference data, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Matilogistics Webhooks](https://apis.io/asyncapis/matilogistics/matilogistics-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [matilogistics-mcp.yml](https://apis.io/servers/matilogistics/matilogistics-mcp-yml/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Matilogistics Authentication](https://apis.io/security/matilogistics/matilogistics-authentication/)
+- [Matilogistics Domain Security](https://apis.io/security/matilogistics/matilogistics-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Matilogistics Plans Pricing](https://apis.io/plans/matilogistics/matilogistics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Matilogistics Rate Limits](https://apis.io/rate-limits/matilogistics/matilogistics-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.matilogistics.com)
+- [Documentation](https://www.matilogistics.com/api)
+- [Getting started](https://www.matilogistics.com/api#access)
+- [API reference](https://www.matilogistics.com/api)
+- [Pricing](https://www.matilogistics.com/track-trace#pricing)
+- [Sign up](https://www.matilogistics.com/signup)
+
+## API Evangelist rating
+
+**Kin Score 41.2** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 55.3 |
+
+**Agent readiness 25.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/matilogistics/](https://apis.io/providers/matilogistics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mati Logistics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/matilogistics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
